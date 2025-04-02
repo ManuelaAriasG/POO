@@ -10,10 +10,10 @@ public class cuentaBancaria {
     }
 
     public void depositar(){
-        System.out.println("Ha depositado un valor");
+        System.out.println (titular + " Ha depositado un valor en su cuenta: " + numeroCuenta);
     }
 
     public void retirar(){
-        System.out.println("Ha retirado un valor");
+        System.out.println (titular + " Ha retirado un valor en su cuenta: " + numeroCuenta);
     }
 }

@@ -1,9 +1,9 @@
 public class Estudiante {
     String nombre;
-    String edad;
+    int edad;
     int grado;
 
-    public Estudiante (String nombre, String edad, int grado) {
+    public Estudiante (String nombre, int edad, int grado) {
         this.nombre=nombre;
         this.edad=edad;
         this.grado=grado;
